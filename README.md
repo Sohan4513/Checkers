@@ -1,4 +1,4 @@
-## Basics of this Checkers game:
+## Basics:
 This game must be played between two players. 
 Rules:
 1) A checker can only move diagonally.
@@ -10,6 +10,6 @@ Rules:
    - A checker can only become "king" after reaching the last row of the
      opposing player's side.
 
-## How to run Checkers:
+## Initiation:
 1) To initiate the game. Run:  python playgame.py   or   python3 playgame.py
 2) Follow the instructions and enjoy!
