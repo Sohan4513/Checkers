@@ -11,8 +11,7 @@ Rules:
      opposing player's side.
 
 ## Initiation:
-1) To initiate the game. Run:
+1) To initiate the game. Run either:
    - python playgame.py
-     or
    - python3 playgame.py
 3) Follow the instructions and enjoy!
