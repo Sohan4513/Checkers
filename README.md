@@ -1,17 +1,32 @@
-## Basics:
-This game must be played between two players. 
-Rules:
-1) A checker can only move diagonally.
-2) A checker can only move towards opposing player's side.
-3) A checker can eliminate an opposing player player's checker by jumping over
-   them diagonally. 
-   - A checker can eliminate multiple checkers if the spaces allow for it.
-4) A checker can move up and down only when becoming "king."
-   - A checker can only become "king" after reaching the last row of the
-     opposing player's side.
+# **Checkers Game**
 
-## Initiation:
-1) To initiate the game. Run either:
-   - python playgame.py
-   - python3 playgame.py
-3) Follow the instructions and enjoy!
+## **Overview**
+The **Checkers Game** is a two-player board game implementing standard checkers rules, including diagonal movement, jumping over opponents, and king promotions.
+
+## **Rules**
+1. A checker **moves diagonally** toward the opponent’s side.
+2. A checker can **capture an opponent’s piece** by jumping over it.
+3. A checker can perform **multiple jumps** if possible.
+4. A checker becomes a **king** upon reaching the last row, allowing movement in both directions.
+
+## **Installation**
+### **Dependencies**
+To run the game, install the required dependencies from `requirements.txt`:
+```sh
+pip install -r requirements.txt
+```
+Dependencies:
+- `colorama==0.4.6`
+- `pygame==2.1.2`
+- `pytest==7.2.1`
+- `termcolor==2.2.0`
+
+## **How to Play**
+1. Open a terminal and navigate to the project folder.
+2. Run the game using:
+   ```sh
+   python playgame.py
+   ```
+3. Follow the instructions on the screen to play checkers.
+
+---
